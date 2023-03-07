@@ -34,6 +34,7 @@ s=env.reset()
 env.render()
 print(" ")
 
+
 while s<15:
     best_action = np.argmax(Q[s,:])
     snext, r, d, _ = env.step(best_action)

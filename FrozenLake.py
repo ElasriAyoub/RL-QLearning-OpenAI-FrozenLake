@@ -35,6 +35,7 @@ def colorize(string, color, bold=False, highlight = False):
 
     attr = []
     
+    
     num = color2num[color]
     if highlight: num += 10
     '''

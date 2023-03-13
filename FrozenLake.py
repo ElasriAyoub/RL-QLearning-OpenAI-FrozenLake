@@ -26,6 +26,7 @@ def colorize(string, color, bold=False, highlight = False):
     print colorized text.  Valid colors: gray, red, green, yellow,
     blue, magenta, cyan, white, crimson
     """
+    
 
     # Import six here so that `utils` has no import-time dependencies.
     # We want this since we use `utils` during our import-time sanity checks

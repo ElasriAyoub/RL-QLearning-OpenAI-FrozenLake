@@ -33,6 +33,7 @@ def colorize(string, color, bold=False, highlight = False):
     #import six
 
     attr = []
+    
     num = color2num[color]
     if highlight: num += 10
     '''

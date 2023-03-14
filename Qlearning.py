@@ -24,6 +24,7 @@ for i in range(num_episodes): #Pour chaque partie
         if d == True:  # Si on termine -> nouvel épisode
             break
 
+            
 print(" ")
 print("Final Q-Table values : \n" , np.round(Q,5))
 

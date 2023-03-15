@@ -20,7 +20,6 @@ def u(s):
     #return s.replace(r'\\', r'\\\\')
     return s
 
-
 def colorize(string, color, bold=False, highlight = False):
     """Return string surrounded by appropriate terminal color codes to
     print colorized text.  Valid colors: gray, red, green, yellow,

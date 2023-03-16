@@ -28,7 +28,6 @@ for i in range(num_episodes): #Pour chaque partie
 print(" ")
 print("Final Q-Table values : \n" , np.round(Q,5))
 
-
 #USE OF QTABLE FOR OPTIMAL PLAY
 
 print("Enchainement optimal (pi^*) des actions est: \n")

@@ -23,6 +23,7 @@ for action in scenario:
     env.render()
     print("")
 
+    
 chaine=""
 for i in range (len(episode_states)):
     chaine+= "(s=" +str(episode_states[i])+",a=" + str(episode_actions[i]) + ")->r=" + str(episode_rewards[i])+"->"

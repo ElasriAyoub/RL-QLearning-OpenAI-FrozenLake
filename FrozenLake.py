@@ -1,7 +1,6 @@
 import sys
 import numpy as np
 
-
 color2num = dict(
     gray=30,
     red=31,

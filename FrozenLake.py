@@ -13,7 +13,6 @@ color2num = dict(
     crimson=38
 )
 
-
 def u(s):
     #return unicode(s.replace(r'\\', r'\\\\'), "unicode_escape")
     #return s.replace(r'\\', r'\\\\')

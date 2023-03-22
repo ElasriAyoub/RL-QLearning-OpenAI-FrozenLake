@@ -56,7 +56,6 @@ def np_random(seed=None):
     return rng, seed
 '''
 
-
 # Env-related abstractions
 
 class Env(object):

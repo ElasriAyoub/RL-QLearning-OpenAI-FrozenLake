@@ -7,6 +7,7 @@ Q = np.zeros([env.observation_space.n,env.action_space.n])
 #Learning
 lr, y, num_episodes = .8, .95 , 2000
 
+
 for i in range(num_episodes): #Pour chaque partie
     s = env.reset() #Reset environment and get first new observation
     d, j = False, 0  # d: True si partie terminated (hole: perdu ou goal: won)
